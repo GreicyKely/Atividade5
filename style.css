@@ -1,0 +1,90 @@
+body {background-color: rgb(241, 192, 192);
+    margin: 0px;
+
+}
+
+header{
+    background-color: rgb(68, 6, 6); 
+}
+.cabeçalho{ padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    text-align: center;  
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+}
+nav ul{ 
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor:pointer;
+    color: purple;
+    border-bottom: 3px solid black;
+}
+
+section{
+    margin-top: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+#Secao1{width: 50%;
+    background-color: rgb(146, 58, 58);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 14px;  
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+img{
+    float: right;
+}
+
+#Secao2{ text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 18px;
+
+}
+h2{ margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(68, 6, 6); 
+}
+
+#Secao3{ text-align: justify;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 35px;
+ 
+
+}
+article{  margin-left: 70px;
+    margin-right: 70px;
+background-color: rgba(82, 16, 16, 0.589);}
+
+li{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.video{padding-top: 24px}
+
+#semfloat{float: none;}
+#Secao4{
+    margin-left: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
